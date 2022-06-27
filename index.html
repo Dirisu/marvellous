@@ -23,6 +23,7 @@
         padding: 20px;
         margin: 10px;
         border: 1px solid black;
+        border-radius: 25px;
     }
 
     .navLinks a,li {
@@ -33,6 +34,29 @@
 
     .navLinks :hover {
         color: white;
+    }
+
+    input, textarea, button {
+        background-color: transparent !important;
+        color: black;
+        border-color: black !important;
+        margin: 5px;
+    }
+
+    .training {
+        padding: 15px !important;
+    }
+
+    h4 {
+        margin: 0;
+    }
+
+    h5 {
+        color: rgb(120, 108, 108);
+    }
+
+    .foot {
+        background-color: rgb(120, 108, 108);
     }
 </style>
 
@@ -56,12 +80,10 @@
         </div>
     </nav>
 
-<hr>
-
     <!-- About Me Section -->
     <section>
         <div>
-            <h3>ABOUT ME</h3>
+            <h3 class="text-center mt-4">ABOUT ME</h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas architecto quos ipsa, cumque voluptate consectetur nam sint laudantium excepturi perspiciatis ad ducimus atque voluptatibus provident, repellat quia aliquam! Iure laboriosam ex repellat accusantium asperiores! Fugit consequatur saepe porro rerum quibusdam corrupti, numquam eveniet molestias, voluptates sit accusamus molestiae nostrum fuga!
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quia perferendis iure autem harum explicabo modi nulla ab, ex unde temporibus inventore facere quae nisi distinctio quam placeat ullam eveniet!
@@ -74,22 +96,22 @@
     <section>
         <div class="d-flex container skills shadow">
             <div>
-                <h4>AWS Cloud Computing</h4>
+                <h5>AWS Cloud Computing</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nisi deserunt eveniet sed dolore, earum porro mollitia natus, quos itaque tenetur incidunt maiores saepe? Neque illo architecto libero tenetur quaerat!</p>
             </div>
 
             <div>
-                <h4>IOS Dev</h4>
+                <h5>IOS Dev</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nisi deserunt eveniet sed dolore, earum porro mollitia natus, quos itaque tenetur incidunt maiores saepe? Neque illo architecto libero tenetur quaerat!</p>
             </div>
 
             <div>
-                <h4>Web Dev</h4>
+                <h5>Web Dev</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nisi deserunt eveniet sed dolore, earum porro mollitia natus, quos itaque tenetur incidunt maiores saepe? Neque illo architecto libero tenetur quaerat!</p>
             </div>
 
             <div>
-                <h4>Git and GitHub</h4>
+                <h5>Git and GitHub</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nisi deserunt eveniet sed dolore, earum porro mollitia natus, quos itaque tenetur incidunt maiores saepe? Neque illo architecto libero tenetur quaerat!</p>
             </div>
         </div>
@@ -100,50 +122,43 @@
         <div>
             <h4 class="text-center mt-4">TRAININGS AND EXPERIENCE</h4>
 
-            <div class="d-flex mt-2">
+            <div class="mt-2">
 
-                <div class="border p-2 m-3">
-                <h4>AWS Cloud Computing</h4>
-                <h5>Stanbic IBTC Disep 2.0</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, numquam consequuntur! Quaerat dolores vitae, eaque odit iste natus libero omnis.</p>
-
-                <!-- <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                </ul> -->
+                <div class="shadow-lg rounded-3 p-2 m-3 d-flex justify-content-between training">
+                <div class="w-25">
+                    <h4>AWS Cloud Computing</h4>
+                    <h6>Stanbic IBTC Disep 2.0</h6>
+                </div>
+                <span class="w-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, numquam consequuntur! Quaerat dolores vitae, eaque odit iste natus libero omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, accusantium. Impedit, distinctio, ipsa hic error quisquam doloribus amet mollitia molestias reprehenderit earum expedita, corporis dolores quo exercitationem reiciendis fuga consequatur quas a adipisci aspernatur dicta harum provident quos? Voluptatum doloremque voluptates nisi culpa doloribus quae ipsa similique, deleniti quis quam.</span>
+                <div>2016-2019</div>
                 </div>
 
-                <div class="border p-2 m-3">
-                <h4>IOS Development</h4>
-                <h5>Udacity Nanodegree</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, numquam consequuntur! Quaerat dolores vitae, eaque odit iste natus libero omnis.</p>
-
-                <!-- <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                </ul> -->
+                <div class="shadow-lg rounded-3 p-2 m-3 d-flex justify-content-between training">
+                    <div class="w-25">
+                        <h4>IOS Development</h4>
+                        <h6>Udacity Nanodegree</h6>
+                    </div>
+                    <span class="w-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, numquam consequuntur! Quaerat dolores vitae, eaque odit iste natus libero omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, accusantium. Impedit, distinctio, ipsa hic error quisquam doloribus amet mollitia molestias reprehenderit earum expedita, corporis dolores quo exercitationem reiciendis fuga consequatur quas a adipisci aspernatur dicta harum provident quos? Voluptatum doloremque voluptates nisi culpa doloribus quae ipsa similique, deleniti quis quam.</span>
+                    <div>2016-2019</div>
                 </div>
 
-                <div class="border p-2 m-3">
-                <h4>Lorem, ipsum dolor.</h4>
-                <h5>EarlyCode </h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, numquam consequuntur! Quaerat dolores vitae, eaque odit iste natus libero omnis.</p>
-
-                <!-- <ul>
-                    <li>Built responsive web landing pages using Bootstrap framework and SASS </li>
-                    <li>Provided technical assistance to students in need of extra support</li>
-                </ul> -->
+                <div class="shadow-lg rounded-3  p-2 m-3 d-flex justify-content-between training">
+                    <div class="w-25">
+                        <h4>Technical Assistant</h4>
+                        <h6>EarlyCode</h6>
+                    </div>
+                    <span class="w-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, numquam consequuntur! Quaerat dolores vitae, eaque odit iste natus libero omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, accusantium. Impedit, distinctio, ipsa hic error quisquam doloribus amet mollitia molestias reprehenderit earum expedita, corporis dolores quo exercitationem reiciendis fuga consequatur quas a adipisci aspernatur dicta harum provident quos? Voluptatum doloremque voluptates nisi culpa doloribus quae ipsa similique, deleniti quis quam.</span>
+                    <div>2016-2019</div>
                 </div>
 
-                <div class="border p-2 m-3">
-                <h4>Intro into Programming</h4>
-                <h5>Udacity Nanodegree</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, numquam consequuntur! Quaerat dolores vitae, eaque odit iste natus libero omnis.</p>
-                
-                <!-- <ul>
-                    <li>Learnt Basic frontend Development skills (HTML, CSS, JAVASCRIPT)</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                </ul> -->
+                <div class="shadow-lg rounded-3  p-2 m-3 d-flex justify-content-between training">
+                    <div class="w-25">
+                        <h4>Web Development</h4>
+                        <h6>Udacity Nanodegree</h6>
+                    </div>
+                    
+                    <span class="w-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, numquam consequuntur! Quaerat dolores vitae, eaque odit iste natus libero omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, accusantium. Impedit, distinctio, ipsa hic error quisquam doloribus amet mollitia molestias reprehenderit earum expedita, corporis dolores quo exercitationem reiciendis fuga consequatur quas a adipisci aspernatur dicta harum provident quos? Voluptatum doloremque voluptates nisi culpa doloribus quae ipsa similique, deleniti quis quam.</span>
+                    <div>2016-2019</div>
                 </div>
 
             </div>
@@ -153,8 +168,8 @@
 
     <!-- Education -->
     <section>
-        <h4>EDUCATION</h4>
-        <div class="container">
+        <h4 class="text-center mt-4">EDUCATION</h4>
+        <div class="container shadow-lg p-3">
             <div class="d-flex justify-content-between">
                 <div>
                     <h4>BSc. Crop Science</h4>
@@ -175,20 +190,22 @@
         </div>
     </section>
 
-<hr>
 
     <!-- Contact Me -->
     <footer>
-        <form action="submit">
-            <h3>Contact Form</h3>
-            <input type="text" placeholder="Name"> <br><br>
-            <input type="email" placeholder="Email"> <br><br>
-            <input type="text" placeholder="Address"> <br><br>
-            <input type="tel" placeholder="Phone Number"> <br><br>
-            <input type="text" placeholder="Phone Number"> <br><br>
+        <form action="submit" class="m-auto w-25" style="padding-bottom: 20px;">
+            <h3 class="text-center mt-4">Contact Form</h3>
+            <input class="form-control" type="text" placeholder="Name"> 
+            <input class="form-control" type="email" placeholder="Email"> 
+            <input class="form-control" type="text" placeholder="Address"> 
+            <input class="form-control" type="tel" placeholder="Phone Number"> 
+            <input class="form-control" type="text" placeholder="Phone Number"> 
+            <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="message"></textarea> 
 
-            <button>Submit</button>
+            <button class="w-100">Submit</button>
         </form>
+
+        <div class="foot p-3 text-center">&copy Marvellous</div>
     </footer>
 
 </body>
