@@ -6,17 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirisu Marvellous</title>
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
 </head>
 
 <style>
     body{
-        background-color: rgb(206, 205, 205);
+        background-color: rgb(242, 242, 242);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+    }
+
+    .certificate a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .certificate a:hover{
+        color: rgb(48, 48, 226);
+        text-decoration: underline;
     }
 
     nav {
-        background-color: rgb(120, 108, 108);
+        background-color: rgb(159, 149, 149);
     }
 
     .skills div {
@@ -58,7 +72,7 @@
     }
 
     .foot {
-        background-color: rgb(120, 108, 108);
+        background-color: rgb(159, 149, 149);
     }
 </style>
 
@@ -69,14 +83,16 @@
     <nav>
         <div class="d-flex justify-content-between mx-5 pt-4">
             <div>
-                <h1>DIRISU M.</h1>
+                <h1 class="m-0">DIRISU M.</h1>
+                <p>Junior iOS Developer</p>
             </div>
     
             <div>
                 <ul class="navLinks">
-                    <a href="https://dirisuresume.s3.us-west-1.amazonaws.com/Dirisu+Marvellous.pdf"><li>Download Resume</li></a>
-                    <a href="#"><li>LinkedIn</li></a>
-                    <a href="https://github.com/Dirisu"><li>GitHub</li></a>
+                    <a href="mailto:dirisumarvellous94@gmail.com">Email Me</a>
+                    <a href="https://www.linkedin.com/in/dirisumarvellous/" target="_blank"><li>LinkedIn</li></a>
+                    <a href="https://github.com/Dirisu" target="_blank"><li>GitHub</li></a>
+                    <a href="https://dirisu-resume.s3.amazonaws.com/Marvellous+D..pdf" target="_blank"><li>Download Resume</li></a>
                 </ul>
             </div>
         </div>
@@ -95,7 +111,7 @@
     <!-- Skill set -->
     <section>
         <div class="container">
-            <h4 class="text-center m-2">TECHNICAL SKILLS</h4>
+            <h4 class="text-center m-4">TECHNICAL SKILLS</h4>
 
             <div class="d-flex container skills shadow rounded-2 d-sm-block d-lg-flex">
 
@@ -130,7 +146,7 @@
     </section>
 
     <!-- Technical Trainings and Experience -->
-    <section>
+    <!-- <section>
         <div>
             <h4 class="text-center m-2">TRAININGS</h4>
 
@@ -189,7 +205,7 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
     <section>
         <div class=""container-fluid>
@@ -199,16 +215,21 @@
 
                 <div class="shadow-lg rounded-3  p-2 m-3 d-flex justify-content-between training">
                     <div class="w-25">
-                        <h4>Technical Assistant</h4>
+                        <h4>Student Trainee</h4>
                         <h6>EarlyCode</h6>
                     </div>
                     <span class="w-50">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea commodi velit itaque molestias impedit accusamus id? Minima, expedita architecto deleniti dolor dignissimos odio itaque libero rem veniam earum sunt, assumenda asperiores, excepturi dicta animi consequuntur! Iure quisquam ducimus optio in.
+                        <ol>
+                            <li>- Assisted the web development team with all aspects of website and application design.</li>
+                            <li>- Built responsive landing web pages using HTML, CSS and Javascript</li>
+                            <li>- Worked collaboratively with other members using git and github</li>
+                        </ol>
                     </span>
-                    <div>2021-2022</div>
+                    <div>November, 2021- March, 2022</div>
                 </div>
 
-                <div class="shadow-lg rounded-3  p-2 m-3 d-flex justify-content-between training">
+
+                <!-- <div class="shadow-lg rounded-3  p-2 m-3 d-flex justify-content-between training">
                     <div class="w-25">
                         <h4>Web Development</h4>
                         <h6>Udacity Nanodegree</h6>
@@ -218,7 +239,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque velit quod distinctio, excepturi dolorem, vel, corrupti ratione blanditiis error iusto natus. Velit cumque consequuntur commodi consectetur repudiandae ab impedit?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo officiis ab consectetur perferendis ratione laboriosam laborum quo id. Quia, inventore sed reiciendis repellat saepe quos minus assumenda adipisci alias!
                     </span>
                     <div>2021-2022</div>
-                </div>
+                </div> -->
 
             </div>
 
@@ -227,7 +248,7 @@
 
     <!-- Education -->
     <section>
-        <h4 class="text-center mt-4">EDUCATION</h4>
+        <h4 class="text-center m-4">EDUCATION</h4>
         <div class="container shadow-lg p-3">
             <div class="d-flex justify-content-between">
                 <div>
@@ -249,10 +270,49 @@
         </div>
     </section>
 
+    <!-- Certifications -->
+    <section>
+        <h4 class="text-center m-4">TECHNICAL TRAININGS AND CERTIFICATIONS</h4>
+        <div class="container-fluid shadow-lg p-3 certificate">
+
+            <ul>
+                <li><a href="https://www.credly.com/badges/3cd8244b-4ee9-4620-89e2-af87f5885132/public_url" target="_blank">AWS Cloud Practitioner</a></li>
+                <li><a href="https://confirm.udacity.com/GDGWEZDH" target="_blank">iOS Developer Nanodegree</a></li>
+                <li>Design, Product and Developer school program - UK-Nigeria Tech Hub</li>
+                <li><a href="https://confirm.udacity.com/NUZ2GGYG" target="_blank">Intro to Programming Nanodegree</a></li>
+                <li>Freecodecamp - HTML, CSS, Bootstrap</li>
+            </ul>
+
+
+            <!-- <div class="d-flex justify-content-between">
+                <div>
+                    <h6>AWS Cloud Practitioner</h6>
+                    <p><a href="https://www.credly.com/badges/3cd8244b-4ee9-4620-89e2-af87f5885132/public_url">Verify</a></p>
+                </div>
+           </div>
+            
+
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h6>iOS Developer Nanodegree</h6>
+                    <p><a href="https://confirm.udacity.com/GDGWEZDH">Verify</a></p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h6>Intro to Programming Nanodegree</h6>
+                    <p><a href="https://confirm.udacity.com/NUZ2GGYG">Verify</a></p>
+                </div>
+            </div> -->
+            
+        </div>
+    </section>
+
 
     <!-- Contact Me -->
     <footer>
-        <form action="submit" class="m-auto w-25" style="padding-bottom: 20px;">
+        <!-- <form action="submit" class="m-auto w-25" style="padding-bottom: 20px;">
             <h3 class="text-center mt-4">Contact Form</h3>
             <input class="form-control" type="text" placeholder="Name"> 
             <input class="form-control" type="email" placeholder="Email"> 
@@ -262,9 +322,9 @@
             <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="message"></textarea> 
 
             <button class="w-100">Submit</button>
-        </form>
+        </form> -->
 
-        <div class="foot p-3 text-center">&copy Marvellous</div>
+        <div class="foot p-3 text-center">&copy Marvellous Dirisu</div>
     </footer>
 
 </body>
